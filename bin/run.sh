@@ -44,5 +44,4 @@ docker run \
   $OPTION_REMOVE \
   -ti \
   --name python${VERSION}-shell \
-  python${VERSION}-shell:latest \
-  /bin/bash
+  python${VERSION}-shell:latest
