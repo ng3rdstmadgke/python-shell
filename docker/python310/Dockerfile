@@ -9,7 +9,7 @@ RUN apt install locales -y && \
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
-#RUN apt install -y jq
+RUN apt install -y jq less git vim curl wget
 
 RUN pip install --upgrade pip
 COPY requirements.txt ./
