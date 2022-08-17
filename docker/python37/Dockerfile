@@ -13,7 +13,7 @@ RUN apt install -y jq less git vim curl wget sudo tmux
 
 RUN pip install --upgrade pip
 
-RUN groupadd sysadmin && echo "%sysadmin ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/sysadmin
+RUN groupadd -g 524 sysadmin && echo "%sysadmin ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/sysadmin
 
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod 755 /usr/local/bin/entrypoint.sh
