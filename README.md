@@ -1,6 +1,6 @@
 # python-shell
-まっさらなdebian x python環境を気軽に使うためのツール
-利用できるpython versionは 3.6, 3.7, 3.8, 3.9, 3.10
+まっさらなdebian x python環境を気軽に使うためのツール。  
+利用できるpython versionは 3.6, 3.7, 3.8, 3.9, 3.10。  
 
 # Quick Start
 
